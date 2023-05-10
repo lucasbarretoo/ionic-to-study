@@ -1,0 +1,26 @@
+:host {
+    background-color: #f26a3a;
+}
+
+ion-toolbar{
+    --background: transparent;
+    // --opacity: 0.5;
+    --border-width: 0 !important;
+}
+
+ion-content {
+
+    transform: translate3d(0, 400px, 0);
+    --background: transparent;
+    
+}
+
+.content-container {
+
+    background-color: #fff;
+    height: 100%;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    padding-top: 35px;
+    overflow: scroll;
+}
