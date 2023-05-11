@@ -1,6 +1,6 @@
 <ion-header >
     <ion-toolbar>
-        <ion-button fill="clear"size="small" color="light" slot="start">
+        <ion-button fill="clear" size="small" color="light" slot="start">
             <ion-icon slot="icon-only" name="star-outline"></ion-icon>
         </ion-button>
         <ion-button fill="clear" size="small" color="light" slot="end">
@@ -9,7 +9,8 @@
     </ion-toolbar>
 </ion-header>
 
-<ion-content (ionScroll)="handleScroll($event)" [scrollEvents]="true" [fullscreen]="true">
+<p>Background for you page. Background for you page. Background for you page</p>
+<ion-content (ionScroll)="handleScroll($event)" [scrollEvents]="true">
 
 
     <div class="ion-padding content-container">
@@ -27,7 +28,7 @@
         <p>Text for you page. Text for you page. Text for you page</p>
         <p>Text for you page. Text for you page. Text for you page</p>
         <p>Text for you page. Text for you page. Text for you page</p>
-        <p>Text for you page. Text for you page. Text for you page</p>
+        <p #triggerScrollElem class="trigger-scroll-elem"> Trigger Scroll Element for you page</p>
         <p>Text for you page. Text for you page. Text for you page</p>
         <p>Text for you page. Text for you page. Text for you page</p>
         <p>Text for you page. Text for you page. Text for you page</p>

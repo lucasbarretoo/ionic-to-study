@@ -5,22 +5,33 @@
 ion-toolbar{
     --background: transparent;
     // --opacity: 0.5;
-    --border-width: 0 !important;
+    // --border-width: 0 !important;
 }
 
 ion-content {
 
-    transform: translate3d(0, 400px, 0);
+    transform: translate3d(0, 200px, 0);
     --background: transparent;
+    --offset-top: 200px;
+    transition: 1.5s;
+}
+
+.no-transform {
     
+    transform: translate3d(0, 0, 0) !important;
+}
+
+.trigger-scroll-elem {
+
+    border: 1px solid red;
 }
 
 .content-container {
 
     background-color: #fff;
     height: 100%;
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
+    border-radius: 35px;
     padding-top: 35px;
+    padding-bottom: 200px;
     overflow: scroll;
 }
